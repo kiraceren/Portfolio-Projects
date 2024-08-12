@@ -30,47 +30,47 @@ The following Excel features were incorporated:
 Data Transformation/Cleaning
 
 - **Customer Data Integration**: I used the XLOOKUP function to create and populate the customer name, email, country, city, and loyalty card columns by retrieving data from the customers table into the orders table.
-![](columns_created.png)![](xlookup_func.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/columns_created.png)![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/xlookup_func.png)
 - **Product Data Integration**: I utilized the INDEX and MATCH functions to create the coffee type, roast type, size, and unit price columns, pulling the necessary data from the products table.\
-![](new_columns.png) ![](index_func.png) 
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/new_columns.png) ![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/index_func.png) 
 - **Column Recreation**: I created new columns for coffee type name and roast type name by merging the coffee type and roast type data.
 
-   Previous                                                          |New
-   :----------------------------------------------------------------:|:----------------------------:
-   ![](coffe_roast.png)                                            |![](coffee_roast_name.png)
+   Previous                                                                                                   |New
+   :------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:
+   ![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/coffe_roast.png) |![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/coffee_roast_name.png)
 - **Sales Calculation**: Created a sales column by multiplying the quantity by the unit price for each order.
   
-   ![](sales.png)
+   ![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/sales.png)
 ---
 ### Visualization
 The report includes four key visualizations:
 1. A line chart showing total sales over time by date.
 
-![](line_chart.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/line_chart.png)
 
 2. A bar chart displaying total sales by country.
 
-![](ttl_by_country_bar.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/ttl_by_country_bar.png)
  
 3. A breakdown of total sales by the top 3 cities within each country.
 
-![](drill_down_top_3_cities.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/drill_down_top_3_cities.png)
    
 4. A chart highlighting the top 5 customers by sales.
 
-![](top_5_bar.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/top_5_bar.png)
 
-[You can download the dashboard here](https://github.com/kiraceren/Portfolio-Projects/blob/main/coffeeSalesPortfolioProject-ErenKirac.xlsx)\
-[The data](https://github.com/kiraceren/Portfolio-Projects/blob/main/coffeeSalesPortfolioProjectData.xlsx)
+[You can download the dashboard here](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/coffeeSalesPortfolioProject-ErenKirac.xlsx)\
+[The data](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/coffeeSalesPortfolioProjectData.xlsx)
 
-![](dashboard.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/dashboard.png)
 
 ---
 
 ### Features
 Timeline and slicers are utilized to filter data by time period, roast type, size, and customer loyalty card status.
 
-![](timeline_slicers.png)
+![](https://github.com/kiraceren/Portfolio-Projects/blob/main/Excel%20Portfolio%20Project/timeline_slicers.png)
 
 ---
 ### Analysis
