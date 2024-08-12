@@ -1,6 +1,5 @@
 # Data Analyst Portfolio Projects of Eren Kirac
 ## Coffee Sales Analysis with Excel
-![](dashboard.png)
 ---
 ### Introduction
 
@@ -21,18 +20,75 @@ This is an Excel project on coffee sales analysis of an **_imaginary store_**. T
 The following Excel features were incorporated:
 - Various Excel Formulas,
 - XLOOKUP,
-- INDEX, MATCH
-- IF/IFS
-- Pivot Tables/ Pivot Charts, Drill Down in Python Charts
+- Relative/Absolute Cell Reference,
+- INDEX, MATCH,
+- IF/IFS,
+- Pivot Tables/ Pivot Charts, Drill Down in Python Charts,
 - Timeline, Slicer
+---
+### Data Transformation/Cleaning
+Data Transformation/Cleaning
+
+- **Customer Data Integration**: I used the XLOOKUP function to create and populate the customer name, email, country, city, and loyalty card columns by retrieving data from the customers table into the orders table.
+![](columns_created.png)![](xlookup_func.png)
+- **Product Data Integration**: I utilized the INDEX and MATCH functions to create the coffee type, roast type, size, and unit price columns, pulling the necessary data from the products table.\
+![](new_columns.png) ![](index_func.png) 
+- **Column Recreation**: I created new columns for coffee type name and roast type name by merging the coffee type and roast type data.
+
+   Previous                                                          |New
+   :----------------------------------------------------------------:|:----------------------------:
+   ![](coffe_roast.png)                                            |![](coffee_roast_name.png)
+- **Sales Calculation**: Created a sales column by multiplying the quantity by the unit price for each order.
+  
+   ![](sales.png)
 ---
 ### Visualization
 The report includes four key visualizations:
 1. A line chart showing total sales over time by date.
+
+![](line_chart.png)
+
 2. A bar chart displaying total sales by country.
+
+![](ttl_by_country_bar.png)
+ 
 3. A breakdown of total sales by the top 3 cities within each country.
+
+![](drill_down_top_3_cities.png)
+   
 4. A chart highlighting the top 5 customers by sales.
 
-[You can download the report here](youtube.com)
+![](top_5_bar.png)
 
-  
+[You can download the dashboard here](https://github.com/kiraceren/Portfolio-Projects/blob/main/coffeeSalesPortfolioProject-ErenKirac.xlsx)\
+[The data](https://github.com/kiraceren/Portfolio-Projects/blob/main/coffeeSalesPortfolioProjectData.xlsx)
+
+![](dashboard.png)
+
+---
+
+### Features
+Timeline and slicers are utilized to filter data by time period, roast type, size, and customer loyalty card status.
+
+![](timeline_slicers.png)
+
+---
+### Analysis
+Highest Sales by Coffee Type and Month
+- **Arabica**: $841 in September 2021
+- **Liberica**: $844 in January 2022
+- **Excelsa**: $681 in April 2019
+- **Robusta**: $493 in September 2019
+
+Highest Sales by Size and Country
+
+- _Across all countries_, the highest sales were consistently for the 2.5 kg size.
+---
+### Conclusion,Recommendations
+- US has the highest impact on income.
+- The _2.5 kg_ size is the most profitable. It is advisable to focus on this size to maximize revenue.
+
+
+
+---
+Thanks to [Mo Chen](https://www.youtube.com/@mo-chen) for this guided project.
