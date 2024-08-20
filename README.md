@@ -23,7 +23,7 @@ The following Excel features were incorporated:
 - Relative/Absolute Cell Reference,
 - INDEX, MATCH,
 - IF/IFS,
-- Pivot Tables/ Pivot Charts, Drill Down in Python Charts,
+- Pivot Tables/ Pivot Charts, Drill Down in Pivot Charts,
 - Timeline, Slicer
 ---
 ### Data Transformation/Cleaning
