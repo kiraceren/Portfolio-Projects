@@ -91,4 +91,8 @@ Highest Sales by Size and Country
 
 
 ---
-Thanks to [Mo Chen](https://www.youtube.com/@mo-chen) for this guided project.
+## EDA(Exploratory Data Analysis) of Crime Dataset with Python (pandas,numpy,matplotlib,seaborn)
+
+### [Link to the project](https://github.com/kiraceren/Portfolio-Projects/tree/main/Python%20Portfolio%20Projects)
+---
+Thanks to [Mo Chen](https://www.youtube.com/@mo-chen) for these guided projects.
